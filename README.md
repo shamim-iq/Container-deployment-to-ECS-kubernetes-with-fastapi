@@ -6,8 +6,8 @@ The primary objective is to develop a FastAPI application that facilitates users
 
 ## Step-by-Step Guide
 
-1. **Launch an EC2 Instance:**
-    - Launch a "t2.medium" Ubuntu instance with 15GB storage.
+1. **Launch an EC2 Instance or use your local machine:**
+    - Launch a "t2.medium" Ubuntu instance with 15GB storage or use your local machine.
 
 2. **Update and Clone Repository:**
     - SSH into the instance and run the following commands:
