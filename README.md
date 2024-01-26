@@ -38,7 +38,8 @@ The primary objective is to develop a FastAPI application that facilitates users
 
 6. **Create IAM Role and Configure AWS CLI:**
     - Create an IAM role with necessary permissions for Terraform and ECS.
-    - Generate "AWS Access Key ID" and "AWS Secret Access Key" and run:
+    - Generate "AWS Access Key ID" and "AWS Secret Access Key".
+    - Run the below command and configure the "AWS Access Key ID", "AWS Secret Access Key" and "Region".
       ```bash
       aws configure
       ```
