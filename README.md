@@ -59,7 +59,7 @@ The primary objective is to develop a FastAPI application that facilitates users
 8. **Run FastAPI Application:**
     - Run the FastAPI application in the background:
       ```bash
-      nohup uvicorn main:app --reload --host 0.0.0.0 --port 8000 &
+      uvicorn main:app --reload --host 0.0.0.0 --port 8000 &
       ```
 
 9. **Set Kubeconfig Path:**
