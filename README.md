@@ -4,6 +4,12 @@
 
 The primary objective is to develop a FastAPI application that facilitates users in supplying credentials for both Kubernetes and AWS ECS clusters, in addition to specifying details about a container image. Subsequently, the application will utilize this information to orchestrate the deployment of the containerized application onto the designated clusters.
 
+## Diagram
+<div align="center">
+  <img src="diagram.PNG" alt="Logo" width="100%" height="100%">
+</div>
+<br />
+
 ## Step-by-Step Guide
 
 1. **Launch an EC2 Instance or use your local machine:**
