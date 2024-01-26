@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates deploying containers on Kubernetes (Minikube) using a FastAPI application. Follow the steps below to set up and deploy containers.
+The primary objective is to develop a FastAPI application that facilitates users in supplying credentials for both Kubernetes and AWS ECS clusters, in addition to specifying details about a container image. Subsequently, the application will utilize this information to orchestrate the deployment of the containerized application onto the designated clusters.
 
 ## Step-by-Step Guide
 
