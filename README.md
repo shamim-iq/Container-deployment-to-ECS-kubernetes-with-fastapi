@@ -6,7 +6,7 @@ The primary objective is to develop a FastAPI application that facilitates users
 
 ## Diagram
 <div align="center">
-  <img src="diagram.PNG" alt="Logo" width="100%" height="100%">
+  <img src="Diagram.PNG" alt="Logo" width="100%" height="100%">
 </div>
 <br />
 
