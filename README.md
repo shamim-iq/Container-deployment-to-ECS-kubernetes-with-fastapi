@@ -62,6 +62,7 @@ The primary objective is to develop a FastAPI application that facilitates users
       ```
 
 10. **Deploy to Minikube:**
+    - In this case, the endpoint is "/k8s-deploy".
     - Run the following command to deploy to Minikube:
       ```bash
       curl -X POST "http://<instance_public_ip>:8000/k8s-deploy" -H "Content-Type: application/json" -d '{
@@ -73,25 +74,26 @@ The primary objective is to develop a FastAPI application that facilitates users
           }'
       ```
 
-11. **Validate Minikube Deployment:**
+12. **Validate Minikube Deployment:**
     - Run the following command to validate successful deployment:
       ```bash
       kubectl get pods
       ```
 
-12. **Initialize Terraform:**
+13. **Initialize Terraform:**
     - Run the following commands to initialize Terraform:
       ```bash
       terraform init
       ```
 
-13. **Deploy ECS Cluster:**
+14. **Deploy ECS Cluster:**
     - Run the following commands to deploy ECS cluster and infrastructure:
       ```bash
       terraform apply -auto-approve
       ```
 
-14. **Deploy to ECS:**
+15. **Deploy to ECS:**
+    - In this case, the endpoint is "/ecs-deploy".
     - Run the following command to deploy to ECS:
       ```bash
       curl -X POST "http://<instance_public_ip>:8000/ecs-deploy" -H "Content-Type: application/json" -d '{
@@ -104,7 +106,7 @@ The primary objective is to develop a FastAPI application that facilitates users
           }'
       ```
 
-15. **Access Deployed Container:**
+16. **Access Deployed Container:**
     - Navigate to the AWS ECS Console and locate the task associated with your ECS cluster.
     - Access the deployed container using the Fargate public IP associated with the task.
 
