@@ -18,17 +18,17 @@ This project demonstrates deploying containers on Kubernetes (Minikube) using a 
       ```
 
 3. **Install Dependencies:**
-    - Install the below mentioned dependencies:
-        - i.   python3
-        - ii.  python3-pip
-        - iii. kubectl
-        - iv.  docker.io
-        - v.   minikube
-        - vi.  aws-cli
-        - vii. terraform
+    - Install the below-mentioned dependencies:
+        - python3
+        - python3-pip
+        - kubectl
+        - docker
+        - minikube
+        - aws-cli
+        - terraform
 
 4. **Relogin to the Instance:**
-    - Exit and Log back in to the instance to use docker commands without "sudo".
+    - Exit and Log back into the instance to use docker commands without "sudo".
 
 5. **Start Minikube:**
     - Run the following command to start Minikube:
